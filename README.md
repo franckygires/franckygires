@@ -1,46 +1,46 @@
 # Francky Girès FANOU
 
-**Consultant IT | Architecte SI – Cloud & DevOps**
-Abidjan, Côte d'Ivoire · Cotonou, Bénin · Ouvert à la relocation / Remote
+**IT Consultant | IS Architect – Cloud & DevOps**
+Abidjan, Côte d'Ivoire · Cotonou, Benin · Open to relocation / Remote
 
-Architecture, intégrations et déploiements, de l'analyse du besoin à la livraison. Tout est versionné, reproductible et auditable.
+Architecture, integrations and deployments, from requirements analysis to delivery. Everything is versioned, reproducible and auditable.
 
-🔗 [franckygires.com](https://franckygires.com) · [LinkedIn](https://www.linkedin.com/in/francky-fanou) · [CV en ligne](https://franckygires.com/fr/cv)
+🔗 [franckygires.com](https://franckygires.com/en) · [LinkedIn](https://www.linkedin.com/in/francky-fanou) · [Online résumé](https://franckygires.com/en/cv)
 
-## Ce que je fais
+## What I do
 
-- **Cadrage & architecture SI** : dossiers d'architecture, feuilles de route, migrations progressives quand la continuité de service est critique.
-- **Build & intégrations** : Infrastructure as Code, pipelines CI/CD et GitOps, sécurité intégrée dès la conception.
-- **Delivery & exploitation** : supervision, gestion des incidents, PCA/PRA, procédures documentées.
+- **Scoping & IS architecture**: architecture dossiers, staged roadmaps, progressive migrations when service continuity is critical.
+- **Build & integrations**: Infrastructure as Code, CI/CD pipelines and GitOps, security built in from the design stage.
+- **Delivery & operations**: monitoring, incident management, business continuity and disaster recovery plans, documented procedures.
 
-## Réalisations
+## Projects
 
-| Réalisation | En bref |
+| Project | In short |
 |---|---|
-| [Infrastructure cloud souveraine haute disponibilité](https://franckygires.com/fr#projet-infra) | Cluster K3s bare-metal à 3 nœuds en GitOps (ArgoCD), réplication synchrone PostgreSQL (RPO = 0), reconstruction complète depuis Git en moins de 30 minutes. Client anonymisé. |
-| [GoMarket, marketplace mobile](https://franckygires.com/fr#projet-gomarket) | Backend serverless sur GCP, paiement Mobile Money, recherche Algolia, notifications temps réel. |
-| [GoMarket V2, migration sans interruption](https://franckygires.com/fr#projet-gomarket-v2) | Architecture hybride Firestore + Cloud SQL, migration par étapes (Strangler Fig). |
-| [KubeQuest, plateforme cloud-native sur Azure](https://franckygires.com/fr#projet-kubequest) | Provisionnement 100 % automatisé via Terraform, K3s, CI/CD GitHub Actions. |
-| [Qualiscan, SaaS B2B multi-tenant](https://franckygires.com/fr#projet-qualiscan) | Isolation des données entre établissements, API sécurisée, déploiements Docker sur Azure. |
+| [Sovereign high-availability cloud infrastructure](https://franckygires.com/en#projet-infra) | Bare-metal 3-node K3s cluster run with GitOps (ArgoCD), synchronous PostgreSQL replication (RPO = 0), full rebuild from Git in under 30 minutes. Client anonymised. |
+| [GoMarket, mobile marketplace](https://franckygires.com/en#projet-gomarket) | Serverless backend on GCP, Mobile Money payment, Algolia search, real-time notifications. |
+| [GoMarket V2, migration without downtime](https://franckygires.com/en#projet-gomarket-v2) | Hybrid Firestore + Cloud SQL architecture, step-by-step migration (Strangler Fig). |
+| [KubeQuest, cloud-native platform on Azure](https://franckygires.com/en#projet-kubequest) | 100% automated provisioning with Terraform, K3s, GitHub Actions CI/CD. |
+| [Qualiscan, multi-tenant B2B SaaS](https://franckygires.com/en#projet-qualiscan) | Data isolation between client establishments, secured API, Docker deployments on Azure. |
 
-Les neuf réalisations et leurs fiches sont sur le [portfolio](https://franckygires.com/fr#realisations).
+All nine projects and their sheets are on the [portfolio](https://franckygires.com/en#realisations).
 
-## Environnement technique
+## Technical environment
 
-- **Cloud** : Azure, Google Cloud Platform, AWS
-- **Conteneurs & orchestration** : Docker, Kubernetes (K3s), Helm, Longhorn
-- **IaC & GitOps** : Terraform, Ansible, ArgoCD, GitHub Actions, GitLab CI/CD
-- **Sécurité** : Vault, External Secrets, cert-manager, RBAC, OAuth2
-- **Observabilité** : Prometheus, Grafana, Loki
-- **Développement** : Node.js, TypeScript, PostgreSQL, Firestore
+- **Cloud**: Azure, Google Cloud Platform, AWS
+- **Containers & orchestration**: Docker, Kubernetes (K3s), Helm, Longhorn
+- **IaC & GitOps**: Terraform, Ansible, ArgoCD, GitHub Actions, GitLab CI/CD
+- **Security**: Vault, External Secrets, cert-manager, RBAC, OAuth2
+- **Observability**: Prometheus, Grafana, Loki
+- **Development**: Node.js, TypeScript, PostgreSQL, Firestore
 
-## Formation et certifications
+## Education and certifications
 
 - AWS Certified Cloud Practitioner
-- AWS Certified Solutions Architect – Associate (en cours)
-- Titre RNCP niveau 7, Architecte de Systèmes d'Information (ETNA, 2025)
-- Master Pro Innovation Technologique, spécialité Cloud Computing (EPITECH, 2023 – 2025)
+- AWS Certified Solutions Architect – Associate (in progress)
+- RNCP level 7 title, Information Systems Architect (ETNA, 2025)
+- Professional Master in Technological Innovation, Cloud Computing (EPITECH, 2023 – 2025)
 
 ---
 
-🇬🇧 IT Consultant and IS Architect, Cloud & DevOps. English version of the portfolio: [franckygires.com/en](https://franckygires.com/en)
+🇫🇷 Version française du portfolio : [franckygires.com/fr](https://franckygires.com/fr)
