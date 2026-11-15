@@ -13,6 +13,10 @@ Architecture, integrations and deployments, from requirements analysis to delive
 - **Build & integrations**: Infrastructure as Code, CI/CD pipelines and GitOps, security built in from the design stage.
 - **Delivery & operations**: monitoring, incident management, business continuity and disaster recovery plans, documented procedures.
 
+## Public reference
+
+[**k3s-gitops-reference**](https://github.com/franckygires/k3s-gitops-reference): a 3-node K3s cluster built entirely from Git with Argo CD, PostgreSQL with synchronous replication, secrets in Vault, automated TLS and default-deny networking. On every push, CI rebuilds it on a clean machine and stops the node that hosts the database primary while a client is writing: no acknowledged write lost.
+
 ## Projects
 
 | Project | In short |
