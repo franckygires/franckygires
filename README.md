@@ -1,64 +1,46 @@
 # Francky Girès FANOU
 
-**DevOps Engineer & Solutions Architect** - Cloud · Kubernetes · GitOps
+**Consultant IT | Architecte SI – Cloud & DevOps**
+Abidjan, Côte d'Ivoire · Cotonou, Bénin · Ouvert à la relocation / Remote
 
-RNCP Level 7 certified Information Systems Architect (ETNA, 2025) with ~4 years of
-intensive experience designing and operating critical production infrastructure in
-West Africa. I build highly available bare-metal Kubernetes clusters, GitOps / CI-CD
-pipelines and DevSecOps practices, with a focus on reliability, data sovereignty
-(UMOA / UEMOA) and service continuity.
+Architecture, intégrations et déploiements, de l'analyse du besoin à la livraison. Tout est versionné, reproductible et auditable.
 
-Based in Cotonou, Benin
+🔗 [franckygires.com](https://franckygires.com) · [LinkedIn](https://www.linkedin.com/in/francky-fanou) · [CV en ligne](https://franckygires.com/fr/cv)
 
-🔗 [Portfolio](https://franckygires.vercel.app) · [LinkedIn](https://linkedin.com/in/francky-fanou) · [Email](mailto:giresfanou@gmail.com)
+## Ce que je fais
 
----
+- **Cadrage & architecture SI** : dossiers d'architecture, feuilles de route, migrations progressives quand la continuité de service est critique.
+- **Build & intégrations** : Infrastructure as Code, pipelines CI/CD et GitOps, sécurité intégrée dès la conception.
+- **Delivery & exploitation** : supervision, gestion des incidents, PCA/PRA, procédures documentées.
 
-## Tech Stack
+## Réalisations
 
-| Domain | Tools |
-| --- | --- |
-| **Containers & Orchestration** | Kubernetes (K3s), Docker, Helm |
-| **Infrastructure as Code** | Terraform, Ansible |
-| **CI/CD & GitOps** | GitHub Actions, GitLab CI, ArgoCD |
-| **Cloud** | GCP, Azure, AWS *(Cloud Practitioner in progress)* |
-| **Observability** | Prometheus, Grafana, Loki |
-| **Security** | Vault, External Secrets, cert-manager, RBAC, OAuth2, TLS automation |
-| **Backend** | Node.js, TypeScript, Express, PostgreSQL, MongoDB |
-| **Scripting** | Bash, Python |
+| Réalisation | En bref |
+|---|---|
+| [Infrastructure cloud souveraine haute disponibilité](https://franckygires.com/fr#projet-infra) | Cluster K3s bare-metal à 3 nœuds en GitOps (ArgoCD), réplication synchrone PostgreSQL (RPO = 0), reconstruction complète depuis Git en moins de 30 minutes. Client anonymisé. |
+| [GoMarket, marketplace mobile](https://franckygires.com/fr#projet-gomarket) | Backend serverless sur GCP, paiement Mobile Money, recherche Algolia, notifications temps réel. |
+| [GoMarket V2, migration sans interruption](https://franckygires.com/fr#projet-gomarket-v2) | Architecture hybride Firestore + Cloud SQL, migration par étapes (Strangler Fig). |
+| [KubeQuest, plateforme cloud-native sur Azure](https://franckygires.com/fr#projet-kubequest) | Provisionnement 100 % automatisé via Terraform, K3s, CI/CD GitHub Actions. |
+| [Qualiscan, SaaS B2B multi-tenant](https://franckygires.com/fr#projet-qualiscan) | Isolation des données entre établissements, API sécurisée, déploiements Docker sur Azure. |
 
----
+Les neuf réalisations et leurs fiches sont sur le [portfolio](https://franckygires.com/fr#realisations).
 
-## Selected Projects
+## Environnement technique
 
-**Sovereign HA Infrastructure** · *confidential*
-Bare-metal K3s GitOps cluster for a regional financial institution and a major
-telecom operator in Benin. PostgreSQL synchronous replication (RPO = 0), Vault +
-External Secrets, ArgoCD, full audit trail, UMOA data-residency compliance, 99.9 %
-availability. Full infrastructure rebuild from Git in under 30 minutes.
-`K3s` `ArgoCD` `Vault` `PostgreSQL` `Longhorn` `Terraform`
+- **Cloud** : Azure, Google Cloud Platform, AWS
+- **Conteneurs & orchestration** : Docker, Kubernetes (K3s), Helm, Longhorn
+- **IaC & GitOps** : Terraform, Ansible, ArgoCD, GitHub Actions, GitLab CI/CD
+- **Sécurité** : Vault, External Secrets, cert-manager, RBAC, OAuth2
+- **Observabilité** : Prometheus, Grafana, Loki
+- **Développement** : Node.js, TypeScript, PostgreSQL, Firestore
 
-**[KubeQuest](https://github.com/franckygires/KubeQuest)**
-Fully automated cloud-native infrastructure on Azure: Terraform IaC, K3s
-orchestration, GitHub Actions pipelines, and a complete Prometheus / Grafana / Loki
-observability stack.
-`Kubernetes` `Terraform` `Azure` `GitHub Actions` `Prometheus` `Grafana`
+## Formation et certifications
 
-**GoMarket** · [gomarket.bj](https://gomarket.bj)
-Serverless backend for a C2C mobile marketplace running in production. Mobile Money
-payments (FCFA), Algolia search, real-time notifications. V2 migration to a hybrid
-Firestore + Cloud SQL architecture via the Strangler Fig pattern.
-`Firebase` `Node.js` `TypeScript` `Cloud Functions` `PostgreSQL` `Algolia` `GCP`
-
-**Qualiscan** · [qualiscan.fr](https://qualiscan.fr)
-Multi-tenant B2B SaaS backend for the hospitality sector. Tenant data isolation,
-OAuth2 / RBAC, rate limiting, containerized delivery with CI/CD.
-`Node.js` `TypeScript` `Express` `MongoDB` `Docker` `OAuth2`
+- AWS Certified Cloud Practitioner
+- AWS Certified Solutions Architect – Associate (en cours)
+- Titre RNCP niveau 7, Architecte de Systèmes d'Information (ETNA, 2025)
+- Master Pro Innovation Technologique, spécialité Cloud Computing (EPITECH, 2023 – 2025)
 
 ---
 
-## Education
-
-- **RNCP Level 7 - Information Systems Architect** (Bac+5) · ETNA · 2025
-- **MSc Technological Innovation, Cloud Computing** · EPITECH Benin · 2023–2025
-- **Full-Stack Web Developer** · Coding Academy by EPITECH · 2021–2022
+🇬🇧 IT Consultant and IS Architect, Cloud & DevOps. English version of the portfolio: [franckygires.com/en](https://franckygires.com/en)
